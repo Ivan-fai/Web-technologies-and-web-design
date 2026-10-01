@@ -1,12 +1,17 @@
+body {
+    margin: 0;
+    padding: 40px 0;
+}
+
 .card {
-    width: 500px;
+    width: 450px;
+    margin: 0 auto;
     border: 2px solid black;
     padding: 15px;
     font-family: sans-serif;
     font-size: 15px;
     line-height: 1.5;
     box-sizing: border-box;
-    margin:0 auto;
 }
 
 .card p {
@@ -16,7 +21,7 @@
 .block-1 {
     display: inline-block;
     position: relative;
-    background-color: #49d782;
+    background-color: #2ecc71;
     border: 2px solid black;
     color: black;
     padding: 4px 14px;
@@ -28,13 +33,13 @@
 .block-2 {
     display: none;
     position: absolute;
-    bottom: 50%;
-    right: 50%;
-    width: 210px;
-    background-color: #156875;
+    right: 100%;
+    bottom: 0;
+    width: 220px;
+    background-color: #176575;
     border: 2px solid black;
     color: white;
-    padding: 8px 12px;
+    padding: 12px 10px;
     text-align: center;
     box-sizing: border-box;
     white-space: normal;

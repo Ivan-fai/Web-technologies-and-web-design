@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8">
+    <title>Реєстрація — Магазин фітнес-обладнання</title>
+    <link type="text/css" href="style-4.css" rel="stylesheet">
+    <script src="script4.js"></script>
+</head>
+
+<body>
+    <div class="form-bg">
+        <div class="form-container">
+            <h2>Реєстрація клієнта фітнес-магазину</h2>
+
+            <form action="#" onsubmit="return validateForm()" novalidate>
+                <div class="form-row">
+                    <label for="reg-surname">Прізвище:</label>
+                    <input type="text" id="reg-surname" name="reg_surname" placeholder="Мізерний">
+                    <span id="err-surname" style="color: red; font-size: 13px;"></span>
+                </div>
+
+                <div class="form-row">
+                    <label for="reg-name">Ім'я:</label>
+                    <input type="text" id="reg-name" name="reg_name" placeholder="Іван">
+                    <span id="err-name" style="color: red; font-size: 13px;"></span>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="yourmail@gmail.com">
+                    <span id="err-email" style="color: red; font-size: 13px;"></span>
+                </div>
+
+                <div class="form-row">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" placeholder="Введіть пароль">
+                    <span id="err-password" style="color: red; font-size: 13px;"></span>
+                </div>
+
+                <hr class="form-divider">
+
+                <div class="form-row">
+                    <label for="goal">Ваша основна ціль тренувань:</label>
+                    <select id="goal" name="goal">
+                        <option value="home">Домашні тренування</option>
+                        <option value="strength">Набір м'язової маси</option>
+                        <option value="cardio">Схуднення та кардіо</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <input type="checkbox" name="discount_sub" checked> Отримувати знижки на спортивний інвентар
+                    </label>
+                </div>
+
+                <div class="form-buttons">
+                    <input type="submit" value="Зареєструватися">
+                    <input type="reset" value="Очистити">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

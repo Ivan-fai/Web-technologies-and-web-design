@@ -1,0 +1,20 @@
+table {
+  width: 1000px;            
+  margin: 40px auto;        
+  border-collapse: collapse; 
+  text-align: center;
+}
+
+#content {
+  padding: 20px;
+  height: 250px;            
+  vertical-align: top;   
+  background-color: #ffffff; 
+}
+td {
+  width: 20%;
+  padding: 12px;
+  text-align: center;
+  background-color: #e0e0e0;
+  border: 1px solid #999;
+}

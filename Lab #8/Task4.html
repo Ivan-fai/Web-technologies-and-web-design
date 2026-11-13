@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Практична робота №8</title>
+    <link type="text/css" href="style-4.css" rel="stylesheet">
+    <script src="script4.js"></script>
+</head>
+
+<body>
+    <div class="form-bg">
+
+    <div class="form-container">
+        <h2>Форма замовлення обладнання</h2>
+
+        <form name="form" action="#" onsubmit="return validate()" novalidate>
+            <div class="form-row">
+                <label for="surname">Прізвище:</label>
+                <input type="text" id="surname" name="surname">
+            </div>
+
+            <div class="form-row">
+                <label for="username">Ім'я:</label>
+                <input type="text" id="username" name="username">
+                <span id="err-username" style="color: red; font-size: 13px;"></span>
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="yourmail@gmail.com">
+                <span id="err-email" style="color: red; font-size: 13px;"></span>
+            </div>
+            <div class="form-row">
+                <label for="phone">Номер телефону:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+380501234567">
+            </div>
+
+            <div class="form-row">
+                <label for="address">Адреса доставки:</label>
+                <input type="text" id="address" name="address">
+            </div>
+
+            <hr class="form-divider">
+
+            <div class="form-group">
+                <p>Оберіть тип тренувань:</p>
+                <label class="radio-label">
+                    <input type="radio" name="training_type" value="home" checked> Домашній фітнес
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="training_type" value="strength"> Силові тренування
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="training_type" value="gym"> Облаштування спортзалу
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label for="equipment">Оберіть основний інвентар:</label>
+                <select id="equipment" name="equipment">
+                    <option value="dumbbells">Набір гантелей</option>
+                    <option value="bench">Спортивна лава</option>
+                    <option value="kettlebell">Гирі</option>
+                    <option value="tower">Підлоговий турнік</option>
+                    <option value="mat">Килимок та фітнес-резинки</option>
+                </select>
+            </div>
+
+            <hr class="form-divider">
+
+            <div class="form-group">
+                <label for="budget">Оберіть бажаний бюджет:</label><br>
+                <input type="range" id="budget" name="budget" min="500" max="25000" step="500" value="5000"
+                       oninput="document.getElementById('budget-val').innerHTML = this.value + ' грн'">
+                <span id="budget-val">5000 грн</span>
+            </div>
+
+            <hr class="form-divider">
+
+            <div class="form-row">
+                <label for="assembly">Потрібна доставка та збірка</label>
+                <input type="checkbox" id="assembly" name="assembly">
+            </div>
+
+            <div class="form-row">
+                <label for="wishes">Додаткові побажання:</label>
+                <textarea id="wishes" name="wishes" rows="3" cols="28"></textarea>
+            </div>
+
+            <div class="form-buttons">
+                <input type="submit" value="Відправити">
+                <input type="reset" value="Скасувати">
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>

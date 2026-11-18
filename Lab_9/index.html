@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Практична робота №9 — Обладнання для фітнес-тренувань</title>
+    <link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <h1>Обладнання для фітнес-тренувань</h1>
+    </div>
+
+    <div class="menu">
+        <button class="nav-btn" onclick="toggleView('store')">Каталог товарів</button>
+        <button class="nav-btn" onclick="toggleView('basket')">
+            Кошик (<span id="basket-count">0</span>)
+        </button>
+    </div>
+
+    <div id="store-section">
+        <div id="store-grid" class="grid-container"></div>
+    </div>
+
+    <div id="basket-section">
+        <h2>Ваш кошик замовлень</h2>
+        <div id="basket-list"></div>
+    </div>
+</div>
+
+<script src="Product.js"></script>
+</body>
+</html>

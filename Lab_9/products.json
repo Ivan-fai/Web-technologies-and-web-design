@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Ролик для преса",
+        "category": "cardio",
+        "amount": 5,
+        "image_path": "content/ab_roller_wheel.png"
+    },
+    {
+        "name": "Гантель",
+        "category": "strength",
+        "amount": 8,
+        "image_path": "content/dumbbell.png"
+    },
+    {
+        "name": "Масажний ролик (МФР)",
+        "category": "cardio",
+        "amount": 4,
+        "image_path": "content/foam_roller.png"
+    },
+    {
+        "name": "Спортивна лава",
+        "category": "strength",
+        "amount": 2,
+        "image_path": "content/gym_bench.png"
+    },
+    {
+        "name": "Скакалка",
+        "category": "cardio",
+        "amount": 10,
+        "image_path": "content/jump_rope.png"
+    },
+    {
+        "name": "Гиря",
+        "category": "strength",
+        "amount": 4,
+        "image_path": "content/kettlebell.png"
+    },
+    {
+        "name": "Медбол",
+        "category": "strength",
+        "amount": 3,
+        "image_path": "content/medicine_ball.png"
+    },
+    {
+        "name": "Підлоговий турнік",
+        "category": "strength",
+        "amount": 2,
+        "image_path": "content/pull-up_power_tower.png"
+    },
+    {
+        "name": "Фітнес-резинки",
+        "category": "cardio",
+        "amount": 7,
+        "image_path": "content/resistance_bands.png"
+    },
+    {
+        "name": "Фітбол",
+        "category": "cardio",
+        "amount": 4,
+        "image_path": "content/swiss_ball.png"
+    },
+    {
+        "name": "Диск для штанги",
+        "category": "strength",
+        "amount": 6,
+        "image_path": "content/weight_plate.png"
+    },
+    {
+        "name": "Килимок для фітнесу",
+        "category": "cardio",
+        "amount": 9,
+        "image_path": "content/yoga_mat.png"
+    }
+]
